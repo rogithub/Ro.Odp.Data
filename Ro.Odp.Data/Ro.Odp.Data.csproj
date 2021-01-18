@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Ro.Odp.Data</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Rodrigo Jiménez</Authors>
+    <Company>ro-mx</Company>
+    <CreatePackageOnBuild>ro-mx</CreatePackageOnBuild>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/rogithub/Ro.Odp.Data</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../LICENSE" Pack="true" PackagePath="" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.101" />
+  </ItemGroup>
+
+</Project>
